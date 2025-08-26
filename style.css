@@ -15,7 +15,10 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
   animation: spin .5s linear infinite;
+  transition: all .5s linear;
 }
 
 @keyframes rainbow {
