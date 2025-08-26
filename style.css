@@ -1,0 +1,52 @@
+body {
+  /* background-color: #f09; */
+  animation: rainbow 1s linear infinite;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ss {
+  font-family: sans-serif;
+}
+
+#flimzy-p {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: spin .5s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #f00;
+  }
+  17% {
+    background-color: #ff0;
+  }
+  33% {
+    background-color: #0f0;
+  }
+  50% {
+    background-color: #0ff;
+  }
+  67% {
+    background-color: #00f;
+  }
+  83% {
+    background-color: #f0f;
+  }
+  100% {
+    background-color: #f00;
+  }
+}
+
+@keyframes spin {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
